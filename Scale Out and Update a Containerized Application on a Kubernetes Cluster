@@ -1,6 +1,6 @@
 mkdir echo-web
 cd echo-web/
-gsutil cp -r gs://qwiklabs-gcp-00-cbd4a03615ae/echo-web-v2.tar.gz .
+gsutil cp -r gs://<PROJECTID>/echo-web-v2.tar.gz .  
 
 tar -xzf echo-web-v2.tar.gz
 rm echo-web-v2.tar.gz
